@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">sky palacy</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#discover">Rooms</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="tel:+916393041851">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container-gal">
+        <h2>Reserve your room</h2>
+        <form action="https://formspree.io/f/xleqkerv" method="POST">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="roomType" name="roomType" required>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                    <option value="suite">Love</option>
+                    <option value="suite">Cabana</option>
+                    <option value="suite">Family</option>
+                    <option value="suite">Deluxe</option>
+                    <option value="suite">Vintage</option>
+                    <option value="suite">Vip</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+            </div>
+            
+            
+            <div class="form-group">
+                <label for="paymentMethod">Payment Method:</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bankTransfer">Bank Transfer</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Book Now">
+            </div>
+        </form>
+    </div>
+
+
+  
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Stay Connected</h4>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100066684787453&mibextid=ZbWKwL">Facebook</a>
+                    <a href="https://x.com/AkashYa91811250?t=2caasfdScUX9VZVdGQXUTg&s=09">Twitter</a>
+                    <a href="https://www.instagram.com/akashyadavjnp4?igsh=MW1ndGo1d2cxcGdldg==">Instagram</a>
+                    <a href="https://www.linkedin.com/in/akash-ky">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#welcm">About Us</a></li>
+                    <li><a href="#discover">Rooms</a></li>
+                    <li><a href="mailto:kunwarakash100@gmail.com">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Hotel Address: Varanasi, Uttar Pradesh</p>
+                <p>Phone: +6393041851</p>
+                <p>Email: skypalace100@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Policies</h4>
+                <ul>
+                    <li>No Cancellation Policy</li>
+                    <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 sky palace. All Rights Reserved.</p>
+            <p>Designed by Akash</p>
+        </div>
+    </footer>
+   
+</body>
+</html>
